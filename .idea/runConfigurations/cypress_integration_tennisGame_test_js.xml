@@ -1,0 +1,27 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="cypress/integration/tennisGame.test.js" type="CypressConfigurationType" factoryName="Cypress" singleton="false" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <option name="allowRunningInParallel" value="true" />
+    <option name="envs">
+      <map />
+    </option>
+    <option name="passParentEnvs" value="true" />
+    <option name="programParameters" value="" />
+    <option name="workingDirectory" value="$PROJECT_DIR$" />
+    <option name="textRange" />
+    <option name="allNames" />
+    <option name="specsDir" value="$PROJECT_DIR$/cypress/integration" />
+    <option name="specFile" value="$PROJECT_DIR$/cypress/integration/tennisGame.test.js" />
+    <option name="testName" />
+    <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+    <option name="envs">
+      <map />
+    </option>
+    <option name="additionalParams" value="" />
+    <option name="passParentEnvs" value="true" />
+    <option name="nodeJsRef" value="project" />
+    <option name="npmRef" value="yarn" />
+    <option name="kind" value="SPEC" />
+    <option name="interactive" value="false" />
+    <method v="2" />
+  </configuration>
+</component>
