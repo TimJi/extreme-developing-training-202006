@@ -21,5 +21,8 @@
   },
   "scripts": {
     "test": "mocha --require babel-register"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
   }
 }
