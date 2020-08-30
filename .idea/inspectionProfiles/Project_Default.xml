@@ -1,0 +1,19 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="398e6113-3516-3f58-9a7d-7dc381229935" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SSBasedInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <replaceConfiguration name="merge if" text="if($EXPR$){&#10;  $statement$&#10;}&#10;if($EXPR1$){&#10;  $statement$&#10;}" recursive="false" caseInsensitive="false" type="JavaScript" reformatAccordingToStyle="false" shortenFQN="false" replacement="if($EXPR$ || $EXPR1$){&#10;  $statement$&#10;}">
+        <constraint name="__context__" within="" contains="" />
+        <constraint name="EXPR" within="" contains="" />
+        <constraint name="statement" within="" contains="" />
+        <constraint name="EXPR1" within="" contains="" />
+      </replaceConfiguration>
+      <replaceConfiguration name="remove unused if" text="if($EXPR$){&#10;  $statement$&#10;}&#10;$statement$" recursive="false" caseInsensitive="true" type="JavaScript" reformatAccordingToStyle="false" shortenFQN="false" replacement="$statement$">
+        <constraint name="__context__" within="" contains="" />
+        <constraint name="EXPR" within="" contains="" />
+        <constraint name="statement" within="" contains="" />
+      </replaceConfiguration>
+    </inspection_tool>
+  </profile>
+</component>
