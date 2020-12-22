@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="gradient" x1="0" y1="0" x2="0" y2="1">
+            <stop stop-color="#ED358C" offset="0"/>
+            <stop stop-color="#F9902E" offset="1"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <rect fill="url(#gradient)"
+              x="0" y="0" width="400" height="400"
+              rx="30" ry="30"/>
+        <text x="50" y="190"
+              font-family="Arial, Helvetica, sans-serif"
+              font-size="150px"
+              letter-spacing="10"
+              fill="#FFFFFF">
+            <tspan>TJ</tspan>
+            <tspan x="60" y="280">_</tspan>
+        </text>
+    </g>
+</svg>

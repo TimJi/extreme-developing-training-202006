@@ -1,0 +1,69 @@
+:source ~/.vimrc
+
+:set highlightedyank
+:set surround
+:set multiple-cursors
+:set ideajoin
+:set idearefactormode=visual
+
+:nmap zso <Action>(IdeaVim.ReloadVimRc.reload)
+:nmap zec <Action>(editRunConfigurations)
+
+:nmap zn <Action>(GotoNextError)
+:imap zn <Esc><Action>(GotoNextError)
+:vmap zn <Esc><Action>(GotoNextError)
+
+:nmap zk <Action>(Back)
+:imap zk <Action>(Back)
+
+:nmap zra zz<Action>(RearrangeCode)zz<Action>(ReformatCode)zz<Action>(Rerun)
+:imap zra <Esc>zz<Action>(RearrangeCode)zz<Action>(ReformatCode)zz<Action>(Rerun)
+
+:nmap zri <Action>(Inline)
+:imap zri <Action>(Inline)
+
+:nmap zrr <Action>(RenameElement)
+
+:nmap zrf <Action>(IntroduceField)
+:imap zrf <Action>(IntroduceField)
+:vmap zrf <Action>(IntroduceField)
+:nmap zsf va"<Action>(IntroduceField)
+:imap zsf <Esc>va"<Action>(IntroduceField)
+:vmap zsf va"<Action>(IntroduceField)
+
+:vmap zrs <Action>(SurroundWith)
+:nmap zrs <Action>(SurroundWith)
+:imap zrs <Action>(SurroundWith)
+:nmap zss <Action>(SurroundWithLiveTemplate)
+:vmap zss <Action>(SurroundWithLiveTemplate)
+:imap zss <Action>(SurroundWithLiveTemplate)
+
+:nmap zrp <Action>(IntroduceParameter)
+:imap zrp <Action>(IntroduceParameter)
+:nmap zsp va"<Action>(IntroduceParameter)
+
+:nmap zsm V <Action>(ExtractMethod)
+:imap zsm <Esc>V<Action>(ExtractMethod)
+:vmap zrm <Action>(ExtractMethod)
+
+:nmap zrv <Action>(IntroduceVariable)
+:vmap zrv <Action>(IntroduceVariable)
+:imap zrv <Action>(IntroduceVariable)
+
+:nmap z,m vi)<Action>(ExtractMethod)
+:nmap ,m <Action>(FileStructurePopup)
+:imap ,m <Esc><Action>(FileStructurePopup)
+:nmap ,g <Action>(Generate)
+:imap ,g <Esc><Action>(Generate)
+
+:nmap <Space> <Action>(AceAction)
+:nmap <C-\> <Action>(AceTargetAction)
+
+:nmap <S-A-K> <Action>(MoveLineUp)
+:imap <S-A-K> <Action>(MoveLineUp)
+:nmap <S-A-J> <Action>(MoveLineDown)
+:imap <S-A-J> <Action>(MoveLineDown)
+
+:nmap <M-A-S-O> <Action>(OpenFile)
+:imap <M-A-S-O> <Action>(OpenFile)
+:vmap <M-A-S-O> <Action>(OpenFile)
